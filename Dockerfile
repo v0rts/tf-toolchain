@@ -1,14 +1,8 @@
-# "ported" by Adam Miller <maxamillion@fedoraproject.org> from
-#   https://github.com/fedora-cloud/Fedora-Dockerfiles
-#
-# Originally written for Fedora-Dockerfiles by
-#   "Aditya Patawari" <adimania@fedoraproject.org>
-
 FROM centos:centos8
 MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
-ENV TERRAFORM_VER  0.12.29
-ENV AWSCLI_VER     1.18.160
+ENV TERRAFORM_VER  0.14.0-beta2
+ENV AWSCLI_VER     2.0.61
 
 
 
